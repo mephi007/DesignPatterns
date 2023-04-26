@@ -3,6 +3,8 @@ package org.example.StrategyPattern;
 public abstract class Duck{
     FlyBehavior flyBehavior;
     QuackBehavior quackBehavior;
+    public Duck() {
+    }
     public Duck(FlyBehavior fb, QuackBehavior qb) {
         this.flyBehavior = fb;
         this.quackBehavior = qb;
